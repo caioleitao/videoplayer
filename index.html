@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>videoplayer</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles-player.css"/>
+        <script src="script-player.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
+  
+    </head>
+    <body oncontextmenu="return false;">
+      
+        <div id="video" class="player-video" onmousemove="prepare(this);" onmouseout="prepare(this);">
+         
+            <video class="video-view" autoplay><source src="https://www.w3schools.com/html/mov_bbb.mp4"></video>
+            
+            <div class="video-preloader"></div>
+            
+            <div class="video-controls">
+               
+                <div class="video-progress-bar">
+                    <div class="video-loader"></div>
+                    <div class="video-progress"></div>
+                  
+                <div class="video-play video-btn"></div>
+                
+                <div class="video-time">00:00</div>
+                
+            </div>
+            </div>
+
+    </body>
+</html>
