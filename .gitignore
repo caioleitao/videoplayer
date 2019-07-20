@@ -61,7 +61,4 @@ typings/
 .next
 
 # .idea folder
-<<<<<<< HEAD
-=======
-.idea/
->>>>>>> f2cb05792d08432c65dc9d98d6f230be41455631
+.idea/folder
