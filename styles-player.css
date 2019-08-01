@@ -90,18 +90,13 @@ li{
     position: fixed;
     cursor: pointer;
     width: 80%;
-    height: 7px;
-  margin-left: 8%;
+    height: 10px;
+    margin-left: 8%;
     background-color: #2e2e2e;
-  margin-top: -3%;
-  border-radius: 180px;
-  box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
-  transition: 0.2s
-}
-
-.video-progress-bar:hover{
-    height: 15px;
-    border-radius: 5px;
+    margin-top: -3%;
+    border-radius: 180px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
+    transition: 0.2s
 }
 
 .video-loader{
